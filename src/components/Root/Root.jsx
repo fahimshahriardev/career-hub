@@ -6,12 +6,13 @@ import Header from "../Header/Header";
 const Root = () => {
     return (
         <div>
-            <div >
+            <div  >
+            
             <Header></Header>
             </div>
             
 
-            <div className="min-h-screen">
+            <div className=" max-w-6xl mx-auto min-h-screen">
             <Outlet></Outlet>
             </div>
             
